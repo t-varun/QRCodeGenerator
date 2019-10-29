@@ -1,3 +1,3 @@
 import pyqrcode
-e = pyqrcode.create('My First QR Code')
+e = pyqrcode.create(input("Enter a String: "))
 e.png('QR.png',scale=6)
